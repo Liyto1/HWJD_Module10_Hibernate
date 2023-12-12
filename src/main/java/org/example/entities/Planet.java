@@ -11,7 +11,6 @@ import jakarta.validation.constraints.Size;
 public class Planet {
 
     @Id
-    @Pattern(regexp = "[A-Z0-9]+", message = "Inavalid planet ID")
     @Size(max = 10, message = "Planet ID length should be at most 10")
     private String id;
 
