@@ -2,7 +2,6 @@ package org.example.services;
 
 import org.example.entities.Client;
 import org.example.hibernate.HibernateUtils;
-import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
